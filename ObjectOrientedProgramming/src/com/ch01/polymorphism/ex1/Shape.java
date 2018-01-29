@@ -9,6 +9,9 @@ package com.ch01.polymorphism.ex1;
  *
  * @author barcvilla
  */
-public class Shape {
-    
+public abstract class Shape {
+    // valor del area de la forma
+    private double area;
+    // metodo abstract para que la subclase implemente el comportamiento
+    public abstract double getArea();
 }
